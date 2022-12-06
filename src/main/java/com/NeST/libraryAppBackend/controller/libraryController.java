@@ -11,4 +11,9 @@ public class libraryController {
     public String libraryWelcome(){
         return "welcome to library app";
     }
+
+    @PostMapping("/register")
+    public String libraryRegister(){
+        return "welcome to user registration page";
+    }
 }
